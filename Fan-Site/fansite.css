@@ -1,0 +1,426 @@
+body {
+    margin: auto;
+    max-width: 1800px;
+    background-image: url(images/466078-London-city-cityscape-rain-clouds-UK-The_Shard-1132x509.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav>ul {
+
+    border: solid 2px red;
+    border-radius: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: gray;
+    padding: 25px;
+}
+
+ul {
+    list-style: none;
+}
+
+.reseauxjason {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45px;
+    height: 40px;
+}
+
+.reseauxjason:hover {
+    transform: matrix(1.2);
+}
+
+.recherche {
+    border-radius: 25px;
+}
+
+.reseaux {
+    width: 250px;
+    height: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+h1 {
+
+    font-size: 30px;
+    font-family: monospace;
+    border-radius: 15px;
+    margin-top: 60px;
+    border: solid 2px blueviolet;
+    color: darkred;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    text-align: center;
+    border-style: calc(1.2);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 60px;
+    margin-left: 25px;
+    color: blue;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 800;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+h3 {
+    text-align: left;
+    font-size: 26px;
+    font-weight: bolder;
+    margin-left: 25px;
+    color: darkmagenta;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 40px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.imgjasonhome {
+    width: 250px;
+    height: 250px;
+}
+
+.imgjasonhome2 {
+    width: 500px;
+    height: 300px;
+}
+
+.imgjason {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer {
+    background-color: red;
+    padding: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 0%;
+    border-radius: 10px;
+    text-align: left;
+    color: black;
+    font-size: 15px;
+    padding: 50px;
+}
+
+.footer-content>p {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.reseauxperso {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 38px;
+    height: 20px;
+}
+
+img {
+    transition: transform 0.3s ease;
+    height: auto;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+p {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 25px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+
+
+.imagejasonbio>ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.hommeencolere {
+    width: 400px;
+    height: 390px;
+}
+
+.expendable {
+    width: 400px;
+    height: 390px;
+}
+
+.transporteur {
+    width: 400px;
+    height: 390px;
+}
+
+.artmartial {
+    width: 400px;
+    height: 390px;
+}
+
+.piscine {
+    width: 400px;
+    height: 390px;
+}
+
+.imagebiojason {
+    width: 400px;
+    height: 390px;
+}
+
+.mechanic {
+    width: 400px;
+    height: 390px;
+}
+
+.ff7 {
+    width: 400px;
+    height: 390px;
+}
+
+.photosgallery>ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.picture1 {
+    height: 345px;
+    width: 350px;
+}
+
+.picture4 {
+    height: 320px;
+    width: 440px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: right;
+    font-size: 14px;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-content {
+    text-align: right;
+    margin: auto;
+}
+
+.infojason {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+b {
+    color: darkorange;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+iframe {
+    width: 420px;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+iframe:hover {
+    transform: scale(1.2);
+}
+
+hr {
+    max-width: 1100px;
+}
+
+.imagetournage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.imagevillasecondaire>ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.lien-personnel>ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.imggit {
+    width: 110px;
+    height: 50px;
+    margin-left: -20px;
+
+}
+
+.imgplesk {
+    width: 60px;
+    height: 60px;
+
+}
+
+.imglink {
+    width: 70px;
+    height: 65px;
+    margin-right: 20px;
+    margin-left: -25px;
+
+}
+
+.formulaire {
+    padding: 30px;
+}
+
+form {
+
+    color: whitesmoke;
+    font-weight: bolder;
+    padding: 40px;
+    font-size: 17px;
+    text-align: center;
+}
+
+#pro {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 7px;
+}
+
+#bouton {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+#liste {
+    display: flex;
+    justify-content: center;
+    width: 167px;
+    margin: auto;
+    border-radius: 7px;
+}
+
+#politique {
+    color: red;
+    margin-top: 15px;
+    border-radius: 7px;
+
+}
+
+#commentaire {
+    width: 470px;
+    height: 150px;
+    border-radius: 7px;
+    padding-bottom: 20px;
+    margin-bottom: 0%;
+
+}
+
+.film1a4>ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin-top: 0%;
+}
+
+.film1a4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.film1 {
+    width: 210px;
+    height: 270px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.film2 {
+    width: 220px;
+    height: 270px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.imagetournage {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.imagevillasecondaire {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#pro {
+    padding: 7px;
+}
